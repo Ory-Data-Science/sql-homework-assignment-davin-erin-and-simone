@@ -1,0 +1,3 @@
+SELECT year, COUNt (species_id) AS total_abundance
+FROM surveys
+GROUP BY year;
