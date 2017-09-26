@@ -1,0 +1,3 @@
+FROM surveys
+JOIN species
+ON surveys.species_id = species.species_id
